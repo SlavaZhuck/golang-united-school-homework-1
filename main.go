@@ -1,9 +1,11 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/kyokomi/emoji"
 )
 
 func main() {
-	emoji.Sprint("Hello 🗺️!")
+	fmt.Print(emoji.Sprint("Hello 🗺️!"))
 }
